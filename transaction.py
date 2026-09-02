@@ -26,7 +26,7 @@ def buy_products():
     """
     products = read_product()
     if not products:
-        print("\nNo products available for sale.")
+        print("\nNo products available for sale right now.")
         return
     
     print("\n=== BUY PRODUCTS ===")
