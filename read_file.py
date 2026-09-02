@@ -48,7 +48,7 @@ def display_products():
     products = read_product()
 
     if not products:
-        print("\nNo products available right now.")
+        print("\nNo products available.")
         return
 
     print("\nAvailable Products:\n")
