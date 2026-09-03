@@ -37,7 +37,7 @@ def write_product():
             
             price = int(input("Enter price (Rs.): "))
             if price < 0:
-                raise ValueError("Price cannot be negative")
+                raise ValueError("Price cannot be negative.")
             
             origin = input("Enter origin: ").strip()
             if not origin:
