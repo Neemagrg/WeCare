@@ -25,7 +25,7 @@ def write_product():
         try:
             product = input("Enter product name: ").strip()
             if not product:
-                raise ValueError("Product name cannot be empty")
+                raise ValueError("Product name cannot be empty.")
             
             brand = input("Enter brand: ").strip()
             if not brand:
