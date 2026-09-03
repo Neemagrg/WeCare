@@ -29,11 +29,11 @@ def write_product():
             
             brand = input("Enter brand: ").strip()
             if not brand:
-                raise ValueError("Brand cannot be empty")
+                raise ValueError("Brand cannot be empty.")
             
             quantity = int(input("Enter quantity: "))
             if quantity < 0:
-                raise ValueError("Quantity cannot be negative")
+                raise ValueError("Quantity cannot be negative.")
             
             price = int(input("Enter price (Rs.): "))
             if price < 0:
