@@ -45,7 +45,7 @@ def write_product():
             
             supplier = input("Enter supplier name: ").strip()
             if not supplier:
-                raise ValueError("Supplier name cannot be empty")
+                raise ValueError("Supplier name cannot be empty.")
             
             break
         except ValueError as e:
