@@ -41,7 +41,7 @@ def write_product():
             
             origin = input("Enter origin: ").strip()
             if not origin:
-                raise ValueError("Origin cannot be empty")
+                raise ValueError("Origin cannot be empty.")
             
             supplier = input("Enter supplier name: ").strip()
             if not supplier:
